@@ -25,7 +25,7 @@ const XDictionary = () => {
 
   return (
     <div>
-      <h1>XDictionary</h1>
+      <h1>Dictionary App</h1>
       <input
         type="text"
         value={searchTerm}
@@ -33,7 +33,7 @@ const XDictionary = () => {
         placeholder="Enter a word"
       />
       <button onClick={handleSearch}>Search</button>
-      <div>Dictionary:</div>
+      <div>Definition:</div>
       <div>{searchResult}</div>
     </div>
   );
